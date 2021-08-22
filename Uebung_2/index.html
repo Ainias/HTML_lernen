@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Great Boxby</title>
+    <link rel="icon" href="Icon.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+    <div id="logo"><img alt="Logo" src="boxby-logo.png"></div>
+    <nav id="menu">
+        <ul>
+            <li class="menu-item"><a href="#home">home</a></li>
+            <li class="menu-item"><a href="#about">about</a></li>
+            <li class="menu-item"><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="blue" id="home">
+    <img alt="home-background" src="home_background.jpg">
+    <h1> Welcome to the Great Boxby!</h1>
+</section>
+<section class="full-height red" id="about"></section>
+<section class="full-height green" id="contact">
+    <form class="form">
+        <input type="hidden" name="AGB" value="0">
+        <label for="name">Name</label> <input id="name" type="text" name="Name" placeholder="Max Mustermann">
+        <label for="email"> E-Mail <input id="email" type="email" name="E-Mail" placeholder="max.mustermann@gmx.de"> </label>
+        <br>
+        <label> <textarea name="Text" placeholder="Geben Sie hier Ihre Nachricht ein."></textarea> </label>
+        <br>
+        <label> <input type="checkbox" name="AGB" value="1"> Ich akzeptiere die AGB</label>
+        <br>
+        <button>Absenden</button>
+    </form>
+</section>
+</body>
+</html>

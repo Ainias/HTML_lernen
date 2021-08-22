@@ -1,0 +1,22 @@
+img{
+    width:10rem;
+}
+body{
+    color: rgba(210, 55, 121, 0.5);
+}
+#abc{
+    font-size:3em;
+    background-color:blanchedalmond;
+}
+.xyz{
+    font-size:2em;
+    border:solid 1px cadetblue;
+    padding-top:1em;
+    margin:3em
+}
+#abc .xyz{
+    font-size:0.5em
+}
+html{
+    font-size:16px
+}

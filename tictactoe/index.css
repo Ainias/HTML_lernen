@@ -1,0 +1,13 @@
+.field{
+    height: 10rem;
+    width: 10rem;
+    border: 1px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 10rem;
+    text-align: center;
+    line-height: 10rem;
+}
+#gamefield{
+    max-width: 40rem;
+}
