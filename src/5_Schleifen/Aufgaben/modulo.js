@@ -6,6 +6,10 @@
  * @param y {number}
  * @returns {number}
  */
-function modulo(x,y){
-    return x%y;
+function modulo(x, y) {
+    while (x >= y) {
+        console.log(x);
+        x = x - y;
+    }
+    return x;
 }
