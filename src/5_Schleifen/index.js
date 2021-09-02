@@ -7,13 +7,14 @@ moduloButton.addEventListener("click", function(){
     moduloOutput.innerText = modulo(parseInt(moduloXInput.value), parseInt(moduloYInput.value)).toString();
 });
 
-const fibonacciInput = document.getElementById("fibonacciInput");
-const fibonacciOutput = document.getElementById("fibonacciOutput");
-const fibonacciButton = document.getElementById("fibonacciButton");
+const ggtXInput = document.getElementById("ggtXInput");
+const ggtYInput = document.getElementById("ggtYInput");
+const ggtOutput = document.getElementById("ggtOutput");
+const ggtButton = document.getElementById("ggtButton");
 
-fibonacciButton.addEventListener("click", function(){
-    fibonacciOutput.innerText = fibonacci(parseInt(fibonacciInput.value)).toString();
-})
+ggtButton.addEventListener("click", function(){
+    ggtOutput.innerText = ggt(parseInt(ggtXInput.value), parseInt(ggtYInput.value)).toString();
+});
 
 const siebInput = document.getElementById("siebInput");
 const siebOutput = document.getElementById("siebOutput");
